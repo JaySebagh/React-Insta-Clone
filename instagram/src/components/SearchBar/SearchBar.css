@@ -11,7 +11,7 @@
   }
   
   .logo-image {
-    margin-top: 5px;
+    margin-top: 10px;
     height: 30px;
   }
   
@@ -24,8 +24,18 @@
       height: 35px;
   }
 
-  .cam {
-      width: 65px;
+  #cam {
+      font-size: 35px;
+      border-right: 1px solid black;
+      margin-right: 10px;
+      padding-right: 10px;
+      margin-left: 10px;
+  }
+
+  #icon {
+      font-size: 20px;
+      padding: 10px;
+
   }
 
   .search {

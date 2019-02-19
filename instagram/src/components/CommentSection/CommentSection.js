@@ -5,7 +5,7 @@ const CommentSection = props => {
     console.log(props)
     return (
         <div>
-            <p><strong>{props.comment.username}</strong> {props.comment.text}</p>
+            <p className="ptag"><strong>{props.comment.username}</strong> {props.comment.text}</p>
         </div>
     )
 }
