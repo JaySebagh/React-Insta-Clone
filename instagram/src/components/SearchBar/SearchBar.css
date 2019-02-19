@@ -1,0 +1,36 @@
+.search-bar-wrapper {
+    border-bottom: 1px solid #3333;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+  }
+  
+  .image-wrapper {
+    height: 50px;
+  }
+  
+  .logo-image {
+    margin-top: 5px;
+    height: 30px;
+  }
+  
+  .social-wrapper {
+    display: flex;
+  }
+
+  .btn {
+      width: 35px;
+      height: 35px;
+  }
+
+  .cam {
+      width: 65px;
+  }
+
+  .search {
+      margin-right: 65px;
+      width: 200px;
+      text-align: center;
+      height: 20px;
+  }

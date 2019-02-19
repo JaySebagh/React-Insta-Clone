@@ -4,8 +4,9 @@ import './PostContainer.css'
 
 const Posts = props => {
     return (
-        <div>
-            <h1>{props.statusPost.username}</h1>
+        <div className="wrap">
+            <h1><img className="thumb" src={props.statusPost.thumbnailUrl} alt=""/> {props.statusPost.username}</h1>
+            <div><img className="cover" src={props.statusPost.imageUrl} alt=""/></div>
             <div>
                 {
                     props.statusPost.comments.map((comment, i) => (<CommentSection comment={comment} key={i}/>))

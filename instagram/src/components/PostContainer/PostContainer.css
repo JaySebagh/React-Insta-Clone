@@ -1,9 +1,26 @@
 .post {
     font-size: 10px;
     text-align: left;
+    display: inline-block;
 }
 
 .input {
     width: 350px;
     font-size: 10px;
+}
+
+.thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.cover {
+    width: 355px;
+    height: 355px;
+}
+
+.wrap {
+    border: 1px solid lightgray;
+    margin: 20px;
 }
