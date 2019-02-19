@@ -1,4 +1,6 @@
 import React from "react";
+import CommentSection from '../CommentSection/CommentSection'
+import './PostContainer.css'
 
 const Posts = props => {
     return (
@@ -6,12 +8,12 @@ const Posts = props => {
             <h1>{props.statusPost.username}</h1>
             <div>
                 {
-                    props.statusPost.comments.map((comment, i) => (<p key={i}>{comment.username} {comment.text}</p>))
+                    props.statusPost.comments.map((comment, i) => (<CommentSection comment={comment} key={i}/>))
                 }
             </div>
-            <input></input>
+            <input className="input" placeholder="Add a comment..."></input>
         </div>
     )
 }
 
-export default Posts;
+export default Posts; 

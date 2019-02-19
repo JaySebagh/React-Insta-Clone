@@ -1,14 +1,13 @@
 import React from "react";
+import './CommentSection.css'
 
 const CommentSection = props => {
+    console.log(props)
     return (
         <div>
-                {
-                    props.statusPost.comments.map((comment, i) => (<p key={i}>{comment.username} {comment.text}</p>))
-                }
-            <input></input>
+            <p><strong>{props.comment.username}</strong> {props.comment.text}</p>
         </div>
     )
 }
 
-export default CommentSection;
+export default CommentSection; 
