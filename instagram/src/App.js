@@ -8,7 +8,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      posts: []
+      posts: [],
+      filterPost: []
     }
   }
 
@@ -16,11 +17,26 @@ class App extends Component {
     this.setState({ posts: dummyData })
   }
 
+  search = e => {
+    let filteredPost = this.state.posts.filter(allPosts => {
+      if(allPosts.username.includes(e.target.value)) {
+        return allPosts
+      }
+      return undefined;
+    });
+    this.setState({ filterPost: filteredPost })
+  }
+
   render() {
     return (
       <div className="App">
-        <SearchBar/>
-        <PostContainer statusPost={this.state.posts}/>
+        <SearchBar search={this.search}/>
+        <PostContainer statusPost={
+          this.state.filterPost.length > 0
+          ? this.state.filterPost
+          : this.state.posts
+        }
+        />
       </div>
     );
   }

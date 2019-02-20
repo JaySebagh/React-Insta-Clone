@@ -2,7 +2,7 @@ import React from 'react';
 import IGLogo from './iglogo.png';
 import './SearchBar.css';
 
-const SearchBar = () => {
+const SearchBar = (props) => {
   return (
     <div className="search-bar-wrapper">
       <div className="image-wrapper">
@@ -10,7 +10,7 @@ const SearchBar = () => {
         <img alt="instagram logo" src={IGLogo} className="logo-image" />
       </div>
       <div>
-        <input className="search" type="text" placeholder="Search" />
+        <input className="search" type="text" placeholder="Search" onKeyDown={props.search}/>
       </div>
       <div className="social-wrapper">
         <i id="icon" class="far fa-compass"></i>
