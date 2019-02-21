@@ -1,7 +1,7 @@
 import React from 'react';
 
 const withAuthentication = LoggedOut => PostsPage => props => {
-    if (props.showFirst) {
+    if (localStorage.getItem('user')) {
         return <LoggedOut/>
     }
     return <PostsPage/>

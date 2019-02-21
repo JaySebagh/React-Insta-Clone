@@ -16,10 +16,16 @@ class App extends Component {
 
   handleChanges = e => this.setState({ inputText: e.target.value });
 
+  signIn = e => {
+    e.preventDefault();
+    localStorage.setItem('user', this.state.inputText);
+    window.location.reload();
+  }
+
   render() {
     return (
       <div className="App">
-        <ToShow showFirst={this.state.showFirst} />
+        <ToShow/>
         <input 
           type="text" 
           value={this.state.inputText} 
