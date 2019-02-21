@@ -4,7 +4,7 @@ import withConditional from './components/authenticaion/withAuthentication';
 import PostsPage from './components/PostContainer/PostsPage';
 import LoggedOut from './components/PostContainer/LoggedOut';
 
-const ToShow = withConditional(PostsPage)(LoggedOut)
+const ToShow = withConditional(LoggedOut)(PostsPage)
 
 class App extends Component {
   constructor() {

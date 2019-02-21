@@ -1,10 +1,10 @@
 import React from 'react';
 
-const withAuthentication = PostsPage => LoggedOut => props => {
+const withAuthentication = LoggedOut => PostsPage => props => {
     if (props.showFirst) {
-        return <PostsPage/>
+        return <LoggedOut/>
     }
-    return <LoggedOut/>
+    return <PostsPage/>
 }
 
 export default withAuthentication;
