@@ -1,0 +1,46 @@
+.search-bar-wrapper {
+    border-bottom: 1px solid #3333;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+  }
+  
+  .image-wrapper {
+    height: 50px;
+  }
+  
+  .logo-image {
+    margin-top: 10px;
+    height: 30px;
+  }
+  
+  .social-wrapper {
+    display: flex;
+  }
+
+  .btn {
+      width: 35px;
+      height: 35px;
+  }
+
+  #cam {
+      font-size: 35px;
+      border-right: 1px solid black;
+      margin-right: 10px;
+      padding-right: 10px;
+      margin-left: 10px;
+  }
+
+  #icon {
+      font-size: 20px;
+      padding: 10px;
+
+  }
+
+  .search {
+      margin-right: 65px;
+      width: 200px;
+      text-align: center;
+      height: 20px;
+  }

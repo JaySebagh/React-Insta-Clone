@@ -1,0 +1,56 @@
+.post {
+    font-size: 10px;
+    text-align: left;
+    display: inline-block;
+}
+
+.input {
+    width: 341px;
+    font-size: 10px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.h1 {
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+.user {
+    display: flex;
+}
+
+.cover {
+    width: 355px;
+    height: 355px;
+}
+
+.wrap {
+    border: 1px solid lightgray;
+    margin: 20px;
+}
+ 
+#icon {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#icon2 {
+    font-size: 20px;
+    padding: 10px;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}

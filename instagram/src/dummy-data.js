@@ -25,11 +25,11 @@ const dummyData = [
     ]
   },
   {
-    username: "fortnite",
+    username: "Apex Legends",
     thumbnailUrl:
-      "https://tk-assets.lambdaschool.com/ce601fdf-7cb0-4098-83d3-1a1584a72513_30841289_342445456281079_112845064497004544_n.jpg",
+      "https://scontent-lax3-1.cdninstagram.com/vp/1598d61d2835620706831533a87ea57b/5CF3AE46/t51.2885-19/s150x150/50226270_2039695792810874_8254143586258386944_n.jpg?_nc_ht=scontent-lax3-1.cdninstagram.com",
     imageUrl:
-      "https://tk-assets.lambdaschool.com/89d13918-b7a2-4b40-9658-f376ea3f6b59_37131538_213683546146400_1083714364399157248_n.jpg",
+      "https://scontent-sin6-2.cdninstagram.com/vp/0e09b9ef5fdc894cba2d9afe12ef5c64/5CF31CAC/t51.2885-15/e35/50099277_1467933626670759_6980969007207544769_n.jpg?_nc_ht=scontent-sin6-2.cdninstagram.com",
     likes: 4307,
     timestamp: "July 15th 2017, 03:12:09 pm",
     comments: [
